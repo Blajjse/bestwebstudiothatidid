@@ -6,11 +6,11 @@
   width: 100%;
 }
 
-.screen .div {
+.screen .footer {
   background-color: #ffffff;
   overflow: hidden;
   width: 1600px;
-  height: 2346px;
+  height: 2496px;
   position: relative;
 }
 
@@ -18,11 +18,11 @@
   position: absolute;
   width: 1602px;
   height: 252px;
-  top: 2094px;
+  top: 2244px;
   left: 0;
 }
 
-.screen .footer-groupo {
+.screen .footer-group {
   position: relative;
   width: 1600px;
   height: 252px;
@@ -42,7 +42,7 @@
   white-space: nowrap;
 }
 
-.screen .nav-wrapper {
+.screen .footer-wrapper {
   color: #2196f3;
   letter-spacing: 0.20px;
 }
@@ -60,7 +60,7 @@
   left: 215px;
 }
 
-.screen .footer-p {
+.screen .footer-text {
   position: absolute;
   width: 231px;
   top: 0;
@@ -74,8 +74,8 @@
   white-space: nowrap;
 }
 
-.screen .footer-wrapper-twintythree {
-  width: 136px;
+.screen .footer-wrapper-two {
+  width: 231px;
   top: 30px;
   font-family: "Roboto-Regular", Helvetica;
   font-weight: 400;
@@ -88,7 +88,7 @@
   white-space: nowrap;
 }
 
-.screen .footer-wrapper-twintytwo {
+.screen .footer-wrapper-three {
   width: 231px;
   top: 60px;
   font-family: "Roboto-Regular", Helvetica;
@@ -102,22 +102,30 @@
   white-space: nowrap;
 }
 
-.screen .ourteam-groupowrapper {
-  position: absolute;
-  width: 1602px;
-  height: 648px;
-  top: 1446px;
-  left: 0;
-}
-
 .screen .ourteam-overlap {
-  position: relative;
+  position: absolute;
   width: 1600px;
   height: 648px;
+  top: 1596px;
+  left: 0;
   background-color: #f5f4fa;
 }
 
-.screen .ourteam {
+.screen .ourteam-wrapper-four {
+  position: absolute;
+  top: 93px;
+  left: 668px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #212121;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 1.08px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .ourteam-team {
   position: absolute;
   width: 1170px;
   height: 368px;
@@ -125,7 +133,7 @@
   left: 215px;
 }
 
-.screen .ourteam-card {
+.screen .ourteam-teamcard {
   left: 0;
   position: absolute;
   width: 274px;
@@ -133,15 +141,16 @@
   top: 0;
 }
 
-.screen .ourteam-group-two {
+.screen .ourteam-overlapgroup-two {
   position: relative;
   width: 270px;
   height: 368px;
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: var(--material-shadow-v1);
 }
 
-.screen .img {
+.screen .ourteam-img {
   position: absolute;
   width: 270px;
   height: 260px;
@@ -149,7 +158,7 @@
   left: 0;
 }
 
-.screen .ourteam-wrapper-twintyone {
+.screen .ourteam-wrapper-five {
   position: absolute;
   top: 290px;
   left: 71px;
@@ -163,7 +172,7 @@
   white-space: nowrap;
 }
 
-.screen .ourteam-wrapper-twinty {
+.screen .ourteam-wrapper-six {
   position: absolute;
   top: 319px;
   left: 70px;
@@ -177,7 +186,7 @@
   white-space: nowrap;
 }
 
-.screen .ourteam-groupwrapper-two {
+.screen .ourteam-overwrapper {
   left: 300px;
   position: absolute;
   width: 274px;
@@ -185,7 +194,7 @@
   top: 0;
 }
 
-.screen .ourteam-wrapper-nineteen {
+.screen .ourteam-wrapper-seven {
   position: absolute;
   top: 290px;
   left: 83px;
@@ -199,7 +208,7 @@
   white-space: nowrap;
 }
 
-.screen .ourteam-wrapper-eighteen {
+.screen .ourteam-wrapper-eight {
   position: absolute;
   top: 319px;
   left: 62px;
@@ -213,7 +222,7 @@
   white-space: nowrap;
 }
 
-.screen .ourteam-wrapper {
+.screen .ourteam-group-wrapper {
   left: 600px;
   position: absolute;
   width: 274px;
@@ -221,7 +230,7 @@
   top: 0;
 }
 
-.screen .ourteam-wrapper-seventeen {
+.screen .ourteam-wrapper-nine {
   position: absolute;
   top: 290px;
   left: 70px;
@@ -235,7 +244,7 @@
   white-space: nowrap;
 }
 
-.screen .ourteam-wrapper-sixteen {
+.screen .ourteam-wrapper-ten {
   position: absolute;
   top: 319px;
   left: 97px;
@@ -249,7 +258,7 @@
   white-space: nowrap;
 }
 
-.screen .ourteam-card-two {
+.screen .ourteam-divwrapper {
   left: 900px;
   position: absolute;
   width: 274px;
@@ -257,7 +266,7 @@
   top: 0;
 }
 
-.screen .ourteam-wrapper-fivteen {
+.screen .ourteam-wrapper-elevin {
   position: absolute;
   top: 290px;
   left: 63px;
@@ -271,7 +280,7 @@
   white-space: nowrap;
 }
 
-.screen .ourteam-wrapper-fourteen {
+.screen .ourteam-wrapper-tweleve {
   position: absolute;
   top: 319px;
   left: 92px;
@@ -285,59 +294,48 @@
   white-space: nowrap;
 }
 
-.screen .ourteam-wrapper-thirteen {
-  position: absolute;
-  top: 94px;
-  left: 668px;
-  font-family: "Roboto-Bold", Helvetica;
-  font-weight: 700;
-  color: #212121;
-  font-size: 36px;
-  text-align: center;
-  letter-spacing: 1.08px;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.screen .nav-view-four {
+.screen .main-view-two {
   position: absolute;
   width: 1172px;
   height: 386px;
-  top: 966px;
+  top: 1116px;
   left: 215px;
 }
 
-.screen .nav-box {
+.screen .main-box {
   left: 0;
   position: absolute;
   width: 370px;
   height: 294px;
   top: 92px;
+  background-image: url(./img/img-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
-.screen .nav-box-two {
+.screen .main-box-two {
   left: 400px;
-  background-image: url(./img/image.png);
-  background-size: cover;
-  background-position: 50% 50%;
   position: absolute;
   width: 370px;
   height: 294px;
   top: 92px;
+  background-image: url(./img/img-4.png);
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
-.screen .nav-box-three {
+.screen .main-box-three {
   left: 800px;
-  background-image: url(./img/img.png);
-  background-size: cover;
-  background-position: 50% 50%;
   position: absolute;
   width: 370px;
   height: 294px;
   top: 92px;
+  background-image: url(./img/img-3.png);
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
-.screen .nav-wrapper-twelve {
+.screen .main-wrapper-thrteen {
   position: absolute;
   top: 0;
   left: 402px;
@@ -351,26 +349,26 @@
   white-space: nowrap;
 }
 
-.screen .nav-view-three {
+.screen .main-view-three {
   position: absolute;
   width: 1170px;
-  height: 98px;
+  height: 248px;
   top: 774px;
   left: 215px;
 }
 
-.screen .navfeature {
-  height: 98px;
+.screen .main-feature {
+  height: 248px;
   left: 0;
   position: absolute;
   width: 274px;
   top: 0;
 }
 
-.screen .nav-wrapper-elevin {
+.screen .main-wrapper-fourteen {
   position: absolute;
   width: 270px;
-  top: 0;
+  top: 150px;
   left: 0;
   font-family: "Roboto-Bold", Helvetica;
   font-weight: 700;
@@ -380,10 +378,10 @@
   line-height: normal;
 }
 
-.screen .nav-wrapper-ten {
+.screen .main-wrapper-fiveteen {
   position: absolute;
   width: 270px;
-  top: 26px;
+  top: 176px;
   left: 0;
   font-family: "Roboto-Regular", Helvetica;
   font-weight: 400;
@@ -393,63 +391,103 @@
   line-height: 24px;
 }
 
-.screen .nav-feature-two {
-  height: 74px;
+.screen .main-group {
+  position: absolute;
+  width: 270px;
+  height: 120px;
+  top: 0;
+  left: 0;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.screen .main-divwrapper-two {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  top: 25px;
+  left: 100px;
+}
+
+.screen .main-group-two {
+  position: relative;
+  width: 65px;
+  height: 70px;
+  left: 2px;
+  background-image: url(./img/group-23.png);
+  background-size: 100% 100%;
+}
+
+.screen .main-feature-two {
+  height: 224px;
   left: 300px;
   position: absolute;
   width: 274px;
   top: 0;
 }
 
-.screen .nav-feature-three {
-  height: 74px;
+.screen .main-img-two {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 25px;
+  left: 100px;
+}
+
+.screen .main-feature-three {
+  height: 224px;
   left: 600px;
   position: absolute;
   width: 274px;
   top: 0;
 }
 
-.screen .nav-feature-four {
-  height: 98px;
+.screen .main-feature-four {
+  height: 248px;
   left: 900px;
   position: absolute;
   width: 274px;
   top: 0;
 }
-
-.screen .nav-view-two {
+.screen .effective-view-four {
   position: absolute;
-  width: 1600px;
+  width: 1602px;
   height: 600px;
   top: 80px;
   left: 0;
+}
+
+.screen .effective-overlap-three {
+  position: relative;
+  width: 1600px;
+  height: 600px;
   background-image: url(./img/bg.png);
   background-size: 100% 100%;
 }
 
-.screen .nav-view-one {
+.screen .effective-img-three {
   position: absolute;
-  width: 696px;
-  height: 120px;
-  top: 200px;
-  left: 452px;
+  width: 1600px;
+  height: 600px;
+  top: 0;
+  left: 0;
 }
 
-.screen .nav-wrapper-nine {
+.screen .effective-wrapper-sixteen {
   position: absolute;
   width: 696px;
-  top: -1px;
-  left: 0;
+  top: 200px;
+  left: 452px;
   font-family: "Roboto-Black", Helvetica;
   font-weight: 900;
-  color: #000000;
+  color: #ffffff;
   font-size: 44px;
   text-align: center;
   letter-spacing: 2.64px;
   line-height: 60px;
 }
 
-.screen .nav-button {
+.screen .effective-button {
   all: unset;
   box-sizing: border-box;
   position: absolute;
@@ -459,7 +497,7 @@
   left: 692px;
 }
 
-.screen .nav-group-three {
+.screen .effective-overgroup-four {
   position: relative;
   width: 216px;
   height: 50px;
@@ -468,7 +506,7 @@
   box-shadow: 0px 4px 4px #00000026;
 }
 
-.screen .nav-wrapper-eight {
+.screen .effective-wrapper-seventeen {
   position: absolute;
   height: 30px;
   top: 10px;
@@ -483,7 +521,7 @@
   white-space: nowrap;
 }
 
-.screen .nav-div-two {
+.screen .effective-div-two{
   position: absolute;
   width: 1602px;
   height: 80px;
@@ -491,14 +529,14 @@
   left: 0;
 }
 
-.screen .nav-overlap-two {
+.screen .effective-overlap-four {
   position: relative;
   width: 1600px;
   height: 80px;
   background-color: #ffffff;
 }
 
-.screen .nav-line {
+.screen .effective-line {
   position: absolute;
   width: 1600px;
   height: 1px;
@@ -507,7 +545,7 @@
   object-fit: cover;
 }
 
-.screen .nav-webstudio-two {
+.screen .effective-webstudio-two {
   position: absolute;
   top: 24px;
   left: 215px;
@@ -520,12 +558,12 @@
   white-space: nowrap;
 }
 
-.screen .nav-wrapper-seven {
+.screen .effective-wrapper-eighteen {
   color: #000000;
   letter-spacing: 0.20px;
 }
 
-.screen .nav {
+.screen .header-nav {
   position: absolute;
   width: 287px;
   height: 16px;
@@ -533,7 +571,7 @@
   left: 453px;
 }
 
-.screen .nav-div-two {
+.screen .header-div-three {
   position: absolute;
   width: 47px;
   height: 16px;
@@ -541,7 +579,7 @@
   left: 0;
 }
 
-.screen .nav-wrapper-six {
+.screen .header-wrapper-nineteen {
   position: absolute;
   top: 0;
   left: 0;
@@ -554,7 +592,7 @@
   white-space: nowrap;
 }
 
-.screen .nav-wrapper-two {
+.screen .header-wrapper-twonty {
   position: absolute;
   top: 0;
   left: 0;
@@ -567,7 +605,7 @@
   white-space: nowrap;
 }
 
-.screen .nav-wrapper-four {
+.screen .header-wrapper-twontyone {
   position: absolute;
   top: 0;
   left: 95px;
@@ -580,7 +618,7 @@
   white-space: nowrap;
 }
 
-.screen .nav-wrapper-three {
+.screen .header-wrapper-twontytwo {
   position: absolute;
   top: 0;
   left: 217px;
@@ -601,12 +639,12 @@
   left: 1078px;
 }
 
-.screen .nav-overlap-three {
+.screen .header-overlap-five {
   position: relative;
   height: 16px;
 }
 
-.screen .nav-warrper-one {
+.screen .header-wrapper-twontythree {
   top: 0;
   font-family: "Roboto-Medium", Helvetica;
   font-weight: 500;
@@ -619,7 +657,7 @@
   white-space: nowrap;
 }
 
-.screen .nav-hover {
+.screen .header-hover {
   position: absolute;
   width: 137px;
   height: 16px;
@@ -627,7 +665,7 @@
   left: 0;
 }
 
-.screen .nav-tel {
+.screen .header-tel {
   position: absolute;
   width: 124px;
   height: 16px;
@@ -635,7 +673,7 @@
   left: 1263px;
 }
 
-.screen .nav-div {
+.screen .header-div-four {
   position: absolute;
   width: 643px;
   height: 18px;
@@ -643,7 +681,7 @@
   left: 480px;
 }
 
-.screen .finger {
+.screen .header-finger {
   top: 0;
   left: 0;
   position: absolute;
@@ -651,16 +689,16 @@
   height: 16px;
 }
 
-.screen .group {
+.screen .header-group-twontyfour {
   position: relative;
   width: 13px;
   height: 16px;
   left: 1px;
-  background-image: url(./img/group-2.png);
+  background-image: url(./img/group-13.png);
   background-size: 100% 100%;
 }
 
-.screen .group-wrapper {
+.screen .header-group-wrapper {
   top: 2px;
   left: 627px;
   position: absolute;
@@ -668,11 +706,11 @@
   height: 16px;
 }
 
-.screen .group-2 {
+.screen .header-group-twontyfive {
   position: relative;
   width: 13px;
   height: 16px;
   left: 1px;
-  background-image: url(./img/group.png);
+  background-image: url(./img/group-9.png);
   background-size: 100% 100%;
 }
